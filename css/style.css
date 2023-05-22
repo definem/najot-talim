@@ -1,4 +1,6 @@
 /* ----Bismillah---- */
+/* BUNI BUGUN TUGATISH KERE, INSOF BILANDE MUSLIMA
+SHUNCHA DEADLINE BERDILA. UXLAMASDAN BOSAYAM TUGATAMAN IN SHAA ALLOH */
 
 *::before,
 *::after {
@@ -49,6 +51,8 @@ p {
   font-family: "Lato Heavy";
   src: url(/assets/fonts/Lato-Heavy.ttf);
 }
+
+/* ----HEADER SECTION-START---- */
 
 header {
   width: 100%;
@@ -119,6 +123,10 @@ header .nav img {
   cursor: pointer;
 }
 
+/* ----HEADER SECTION-END---- */
+
+/* ----INTRO SECTION-START---- */
+
 #intro {
   display: flex;
   justify-content: center;
@@ -186,6 +194,10 @@ header .nav img {
   background: #ffffff;
   color: #000000;
 }
+
+/* ----INTRO SECTION-END---- */
+
+/* ----ADVANTAGES SECTION-START---- */
 
 #advantages {
   width: 100%;
@@ -264,6 +276,10 @@ header .nav img {
   background: rgba(186, 141, 91, 0.1);
   border-radius: 12px;
 }
+
+/* ----ADVANTAGES SECTION-END---- */
+
+/* ----KURSLAR SECTION-START---- */
 
 #kurslar {
   width: 100%;
@@ -346,6 +362,10 @@ header .nav img {
   transition: all 0.5s ease;
 }
 
+/* ----KURSLAR SECTION-END---- */
+
+/* ----ISH_JOYLARI SECTION-START---- */
+
 #ish_joylari {
   width: 100%;
   height: auto;
@@ -398,6 +418,10 @@ header .nav img {
   transition: all 0.5s ease;
   cursor: pointer;
 }
+
+/* ----ISH_JOYLARI SECTION-END---- */
+
+/* ----IZOHLAR SECTION-START---- */
 
 #izohlar {
   width: 100%;
@@ -577,6 +601,10 @@ header .nav img {
   color: #ffffff;
 }
 
+/* ----IZOHLAR SECTION-END---- */
+
+/* ----HELP SECTION-START---- */
+
 #help {
   width: 100%;
   height: auto;
@@ -700,6 +728,10 @@ header .nav img {
   cursor: pointer;
 }
 
+/* ----HELP SECTION-END---- */
+
+/* ----FOOTER SECTION-START---- */
+
 footer {
   width: 100%;
   height: 700px;
@@ -816,6 +848,10 @@ footer .footer_card_bottom .raqam {
   color: #607987;
 }
 
+/* ----FOOTER SECTION-END---- */
+
+/* ----HOVER VA BIRNIMALA-START---- */
+
 .btn_white:hover {
   border: 1px solid #bd8f5b !important;
   background: transparent !important;
@@ -836,5 +872,331 @@ a:hover {
   text-decoration: underline !important;
   color: brown !important;
 }
+
+/* ----HOVER VA BIRNIMALA-END---- */
+
+/* ----QAYSI PAGE EDI ENDI BU---- */
+/* ----KURSLAR PAGE-START---- */
+
+#hamma_kurslar {
+  margin-top: 165px;
+}
+
+#hamma_kurslar .road {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 64px 0;
+}
+
+#hamma_kurslar .road .back {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c4c4c4;
+}
+
+#hamma_kurslar .road .kurslar {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ba8d5b;
+}
+
+#hamma_kurslar .title_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+#hamma_kurslar .title_input h1 {
+  font-family: "Lato Hard";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 56px;
+  letter-spacing: -0.64px;
+  color: #0f1826;
+}
+
+#hamma_kurslar .title_input .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f5;
+  border-radius: 100px;
+  padding: 15px;
+  gap: 150px;
+}
+
+#hamma_kurslar .title_input .search input {
+  border: none;
+  background: #f7f7f5;
+}
+
+#hamma_kurslar .btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 72px;
+}
+
+#hamma_kurslar .btns button {
+  padding: 16px 25.05px 16px;
+  background: #f7f7f5;
+  border-radius: 32px;
+  border: 1px solid #f7f7f5;
+  cursor: pointer;
+  font-family: "Lato SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#hamma_kurslar .kurslar_wrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  padding: 0 31px 32px 0;
+  margin-bottom: 16px;
+}
+
+#hamma_kurslar .kurslar_wrapper1 .kurslar_card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 29px;
+  width: 543.5px;
+  height: 314px;
+  background: #f9f8f7;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+#hamma_kurslar .kurslar_wrapper1 .kurslar_card1 .kurslar_card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+#hamma_kurslar .kurslar_wrapper1 .kurslar_card1 .kurslar_card-top .category {
+  padding: 5px 12.91px 5px 12px;
+  background: #d1d1d1;
+  border-radius: 4px;
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+#hamma_kurslar .kurslar_wrapper1 .kurslar_card1 .kurslar_card-top p {
+  font-family: "Lato Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #b1732b;
+}
+
+#hamma_kurslar .kurslar_wrapper1 .kurslar_card1 .kurslar_card-top p span {
+  color: #ba8d5b;
+}
+
+#hamma_kurslar .kurslar_wrapper1 .kurslar_card1 .kurslar_card_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+#hamma_kurslar .kurslar_wrapper1 .kurslar_card1 .kurslar_card_bottom h2 {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.56px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+#hamma_kurslar .kurslar_wrapper1 .kurslar_card1 .kurslar_card_bottom p {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.28px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* ----KURSLAR PAGE-START---- */
+
+/* ----BLOG PAGE-START---- */
+
+#blog {
+  margin-top: 164px;
+}
+
+#blog .road {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 32px 0;
+}
+
+#blog .road .back {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c4c4c4;
+}
+
+#blog .road .kurslar {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ba8d5b;
+}
+
+#blog .btns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+#blog .btns button {
+  padding: 16px 25.05px 16px;
+  background: #f7f7f5;
+  border-radius: 32px;
+  border: 1px solid #f7f7f5;
+  cursor: pointer;
+  font-family: "Lato SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#blog .blog_wrapper {
+  margin: 0 0 0 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 342.8px);
+  grid-template-rows: repeat(2, 329px);
+  gap: 48px;
+}
+
+#blog .blog_wrapper .blog_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+  width: 342.8px;
+  height: fit-content;
+}
+
+#blog .blog_wrapper .blog_card .header {
+  width: 342.33px;
+  height: 182px;
+  position: relative;
+}
+
+#blog .blog_wrapper .blog_card .header a {
+  text-decoration: none;
+  position: absolute;
+  width: fit-content;
+  padding: 5px 14.2px 5px 12px;
+  background: #fafafa;
+  box-shadow: 0px 0px 2px #000000;
+  border-radius: 4px;
+  left: 8px;
+  top: 8px;
+  font-family: "Lato SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+#blog .blog_wrapper .blog_card .body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14px;
+}
+
+#blog .blog_wrapper .blog_card .body h2 {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+#blog .blog_wrapper .blog_card .body p {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#blog .blog_wrapper .blog_card .body .date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 342.8px;
+}
+
+#blog .blog_wrapper .blog_card .body .date .watched {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+#blog button {
+  display: flex;
+  justify-content: center;
+  padding: 13px 47.3px 13px 46px;
+  background: #ba8d5b;
+  border-radius: 100px;
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 48px auto;
+  border: 1px solid #bd8f5b;
+  cursor: pointer;
+}  
+
+/* ----BLOG PAGE-END---- */
+/* NAKONETS-TO TUGADIYAA E */
 
 /* # sourceMappingURL=style.css.map */ 
