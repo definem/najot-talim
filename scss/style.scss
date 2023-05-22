@@ -1,0 +1,1177 @@
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1182px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url(/assets/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lato Medium';
+    src: url(/assets/fonts/Lato-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    src: url(/assets/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Lato SemiBold';
+    src: url(/assets/fonts/Lato-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Lato Heavy';
+    src: url(/assets/fonts/Lato-Heavy.ttf);
+}
+
+header {
+    width: 100%;
+    background: #F1F0EE;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Lato Medium';
+
+        &__items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+        }
+
+        &__list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 37px;
+        }
+
+        &__list--item {
+            list-style-type: none;
+        }
+
+        &__list--item-link {
+            text-decoration: none;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: #000000;
+        }
+
+        &__btn {
+            display: flex;
+            align-items: center;
+            background: #FFFFFF;
+            border-radius: 100px;
+            padding: 11px 49.7px 11px 49.3px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            border: 1px solid #FFFFFF;
+            cursor: pointer;
+        }
+
+        & button:hover {
+            border: 1px solid #BD8F5B;
+            background: #FFFFFF;
+            color: #000000;
+        }
+
+        & img {
+            cursor: pointer;
+        }
+
+    }
+
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    margin: 90px auto 0 auto;
+    align-items: center;
+    width: 100%;
+    height: 504px;
+    background-color: #F1F0EE;
+    background-image: url(/assets/images/div.hero\ wrapper.jpg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+    .intro_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 325px;
+        margin-left: 270px;
+        gap: 19px;
+    }
+
+    & h1 {
+        font-family: 'Lato Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: -0.8px;
+        color: #000;
+
+        & span {
+            color: #BA8D5B;
+        }
+
+    }
+
+    & p {
+        font-family: 'Lato SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.36px;
+        color: #607987;
+    }
+
+    & button {
+        padding: 13px 47.8px 13px 46px;
+        background: #BA8D5B;
+        border-radius: 100px;
+        border: 1px solid #FFFFFF;
+        font-family: 'Lato Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-top: 51px;
+        cursor: pointer;
+    }
+
+    & button:hover {
+        border: 1px solid #BD8F5B;
+        background: #FFFFFF;
+        color: #000000;
+    }
+
+}
+
+#advantages {
+    width: 100%;
+    height: fit-content;
+
+    & h1 {
+        font-family: 'Lato Heavy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.64px;
+        color: #0F1826;
+        margin: 48px 0;
+    }
+
+    .advantages_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .advantages_card {
+        display: flex;
+        align-items: flex-start;
+        width: 536.63px;
+        height: 138px;
+        gap: 40px;
+
+        .advantages_text {
+
+            & h2 {
+                font-family: 'Lato Medium';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: -0.4px;
+                color: #0F1826;
+                margin-bottom: 14px;
+            }
+
+            & p {
+                font-family: 'Lato Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: -0.28px;
+                color: #607987;
+            }
+
+        }
+
+    }
+
+    .more {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 21px;
+        margin: 30px 0 48px 0;
+
+        & h3 {
+            font-family: 'Lato SemiBold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.32px;
+            color: #0EB182;
+        }
+
+        & img {
+            width: 24px;
+            height: 24px;
+            background: rgba(186, 141, 91, 0.1);
+            border-radius: 12px;
+        }
+
+    }
+
+}
+
+#courses {
+    width: 100%;
+    height: 361px;
+    background: #F9F8F7;
+    padding: 48px 0 51px 0;
+
+    .courses_elements {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 18px;
+    }
+
+    & h1 {
+        font-family: 'Lato Heavy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 56px;
+        letter-spacing: -0.64px;
+        color: #0F1826;
+    }
+
+    & .courses_text {
+        font-family: 'Lato SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #607987;
+    }
+
+    .courses_wrapper {
+        display: flex;
+        gap: 33px;
+    }
+
+    .courses_card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 17px 17px;
+        gap: 12px;
+        width: 254.5px;
+        height: 97px;
+        border: 1px solid #607987;
+        border-radius: 4px;
+
+        & h2 {
+            font-family: 'Lato Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 27px;
+            letter-spacing: -0.4px;
+            color: #0F1826;
+        }
+
+        & p {
+            font-family: 'Lato Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.32px;
+            color: #607987;
+        }
+
+    }
+
+    & a {
+        font-family: 'Lato Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0EB182;
+        text-decoration: none;
+        transition: all 0.5s ease;
+    }
+
+}
+
+#workplace {
+    width: 100%;
+    height: auto;
+    padding: 48px 0;
+
+    & h1 {
+        font-family: 'Lato Heavy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        color: #0F1826;
+        margin-bottom: 24px;
+    }
+
+    & p {
+        font-family: 'Lato SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #607987;
+    }
+
+    .workplace_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
+        flex-wrap: wrap;
+        margin: 48px 0 0 0;
+    }
+
+    .workplace_card {
+        padding: 16px 12px;
+        background: #F9F8F7;
+        border-radius: 8px;
+
+        & img {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+            transition: all 0.5s ease;
+        }
+
+        & img:hover {
+            -webkit-filter: grayscale(0);
+            filter: grayscale(0);
+            transition: all 0.5s ease;
+            cursor: pointer;
+        }
+
+    }
+
+}
+
+#comments {
+    width: 100%;
+    height: 686px;
+    padding: 40px 0 90px 0;
+
+    & h1 {
+        font-family: 'Lato Heavy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        color: #0F1826;
+        margin: 48px 0 24px 0;
+    }
+
+    .commets_about {
+        font-family: 'Lato SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #607987;
+    }
+
+    .comments_wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 51px;
+        margin-top: 48px;
+    }
+
+    .comments_card1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 260px;
+        width: 224px;
+        height: 412px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.37) 69.5%, rgba(0, 0, 0, 0.65) 90.34%);
+        border-radius: 22px;
+        background-image: url(/assets/images/student1.png);
+        background-repeat: no-repeat;
+    }
+
+    .comments_card2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 260px;
+        width: 224px;
+        height: 412px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.37) 69.5%, rgba(0, 0, 0, 0.65) 90.34%);
+        border-radius: 22px;
+        background-image: url(/assets/images/student2.png);
+        background-repeat: no-repeat;
+    }
+
+    .comments_card3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 260px;
+        width: 224px;
+        height: 412px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.37) 69.5%, rgba(0, 0, 0, 0.65) 90.34%);
+        border-radius: 22px;
+        background-image: url(/assets/images/student3.png);
+        background-repeat: no-repeat;
+    }
+
+    .comments_card4 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+        gap: 260px;
+        width: 224px;
+        height: 412px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.37) 69.5%, rgba(0, 0, 0, 0.65) 90.34%);
+        border-radius: 22px;
+        background-image: url(/assets/images/student4.png);
+        background-repeat: no-repeat;
+    }
+
+    .watch,
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        background: #FFFFFF;
+        border-radius: 100px;
+        padding: 6px;
+        transition: all 0.5s ease;
+
+        .video_link {
+            font-family: 'Lato Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 22px;
+            color: #000000 !important;
+        }
+
+        & span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 28px;
+            height: 28px;
+            background: #BA8D5B;
+            border-radius: 14px;
+        }
+
+    }
+
+    .comments_text {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+
+        .date {
+            font-family: 'Lato SemiBold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 22px;
+            letter-spacing: -0.24px;
+            color: #FFFFFF;
+        }
+
+        .job {
+            font-family: 'Lato SemiBold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 22px;
+            letter-spacing: -0.24px;
+            color: #7CD1AC;
+        }
+
+        & h4 {
+            font-family: 'Lato Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+
+    }
+
+}
+
+#help {
+    width: 100%;
+    height: auto;
+    padding: 20px 0 98px 0;
+
+    & h1 {
+        font-family: 'Lato SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 40px;
+        color: #0F1826;
+    }
+
+
+    .help_wrapper {
+        display: flex;
+        background: #F9F8F7;
+        border-radius: 20px;
+        gap: 32px;
+
+        .card_right {
+            padding: 32px 126px 32px 32px;
+
+            .form {
+                padding: 45px 47px 45px 40px;
+
+                .form_text {
+                    font-family: 'Lato Medium';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #607987;
+                    margin: 16px 0 32px 0;
+
+                    & span {
+                        color: #BA8D5B;
+                    }
+                }
+
+                .forms {
+                    padding: 14px 17px;
+                    width: 368px;
+                    background: #FFFFFF;
+                    border: 1px solid #DADADA;
+                    border-radius: 100px;
+                }
+
+                .name {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 6px;
+                    margin-bottom: 16px;
+
+                    & p {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: -0.28px;
+                        color: rgba(0, 0, 0, 0.35);
+                    }
+
+                }
+
+                .pn {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 6px;
+
+                    & .phone_n-input_t {
+                        font-family: 'Lato';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: -0.28px;
+                        color: rgba(0, 0, 0, 0.35);
+
+                    }
+
+                }
+
+                .request_text {
+                    font-family: 'Lato SemiBold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #000000;
+                    margin: 32px 0 22px 0;
+
+                    & span {
+                        color: #BA8D5B;
+                    }
+
+                }
+
+                .request {
+                    padding: 13px 129.16px 13px 128.84px;
+                    background: #BA8D5B;
+                    border-radius: 100px;
+                    border: 1px solid #FFFFFF;
+                    font-family: 'Lato Bold';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                }
+
+                & button:hover {
+                    border: 1px solid #BD8F5B;
+                    background: #FFFFFF;
+                    color: #000000;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+footer {
+    width: 100%;
+    height: 454px;
+    background: #F9F8F7;
+
+    .footer_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .top_card {
+        display: flex;
+        flex-direction: column;
+        width: 239px;
+        gap: 28px;
+
+        & p {
+            font-family: 'Lato SemiBold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            color: #607987;
+        }
+
+    }
+
+    .footer_card {
+        display: flex;
+        flex-direction: column;
+
+        & h1 {
+            font-family: 'Lato Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.32px;
+            text-transform: capitalize;
+            color: #0F1826;
+            margin-bottom: 32px;
+        }
+
+        & a {
+            text-decoration: none;
+            font-family: 'Lato SemiBold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 32px;
+            letter-spacing: -0.28px;
+            color: #607987;
+            transition: all 0.5s ease;
+        }
+
+    }
+
+    hr {
+        margin-left: 265px;
+    }
+
+    .bottom_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 34px;
+    }
+
+    .footer_card_bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        & h1 {
+            font-family: 'Lato Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: -0.32px;
+            color: #0F1826;
+        }
+
+        & ul {
+            display: flex;
+            padding: 0;
+            gap: 12px;
+        }
+
+        & a,
+        p {
+            font-family: 'Lato SemiBold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: -0.28px;
+            color: #607987;
+            text-decoration: none;
+            transition: all 0.5s ease;
+        }
+
+        .raqam {
+            font-family: 'Lato Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 20px;
+            letter-spacing: -0.36px;
+            color: #607987;
+        }
+
+    }
+
+}
+
+// Hovers 
+
+.btn_white:hover {
+    border: 1px solid #BD8F5B !important;
+    background: transparent !important;
+    color: #000000 !important;
+}
+
+.btn_white:active {
+    background: #BD8F5B;
+    font-family: 'Lato Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+// ----------Courses section----------
+
+#all_courses {
+    margin-top: 165px;
+
+    & .road {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 64px 0;
+
+        & .back {
+            font-family: 'Lato Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: #C4C4C4;
+        }
+
+        & .courses {
+            font-family: 'Lato Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: #BA8D5B;
+        }
+
+    }
+
+    & .title_input {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+
+        & h1 {
+            font-family: 'Lato Hard';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 56px;
+            letter-spacing: -0.64px;
+            color: #0F1826;
+        }
+
+        & .search {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #F7F7F5;
+            border-radius: 100px;
+            padding: 15px;
+            gap: 150px;
+
+            & input {
+                border: none;
+                background: #F7F7F5;
+            }
+
+        }
+
+    }
+
+    .btns {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 16px;
+        margin-bottom: 72px;
+
+        & button {
+            padding: 16px 25.05px 16px;
+            background: #F7F7F5;
+            border-radius: 32px;
+            border: 1px solid #F7F7F5;
+            cursor: pointer;
+            font-family: 'Lato SemiBold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+    }
+
+    .courses_wrapper1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
+        padding: 0 31px 32px 0;
+        margin-bottom: 16px;
+
+        & .courses_card1 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 29px;
+            width: 543.5px;
+            height: 314px;
+            background: #F9F8F7;
+            border-radius: 4px;
+            padding: 24px;
+
+            .courses_card-top {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 22px;
+
+
+                & .category {
+                    padding: 5px 12.91px 5px 12px;
+                    background: #D1D1D1;
+                    border-radius: 4px;
+                    font-family: 'Lato Medium';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #000000;
+                }
+
+                & p {
+                    font-family: 'Lato Regular';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #b1732b;
+
+                    & span {
+                        color: #BA8D5B;
+                    }
+
+                }
+
+            }
+
+            & .courses_card_bottom {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+
+                & h2 {
+                    font-family: 'Lato Bold';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 34px;
+                    letter-spacing: -0.56px;
+                    color: #000000;
+                    margin-bottom: 24px;
+                }
+
+                & p {
+                    font-family: 'Lato Medium';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: -0.28px;
+                    color: rgba(0, 0, 0, 0.7);
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+#blog {
+    margin-top: 164px;
+
+    & .road {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 32px 0;
+
+        & .back {
+            font-family: 'Lato Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: #C4C4C4;
+        }
+
+        & .courses {
+            font-family: 'Lato Medium';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: #BA8D5B;
+        }
+
+    }
+
+    .btns {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 16px;
+
+        & button {
+            padding: 16px 25.05px 16px;
+            background: #F7F7F5;
+            border-radius: 32px;
+            border: 1px solid #F7F7F5;
+            cursor: pointer;
+            font-family: 'Lato SemiBold';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+    }
+
+    & .blog_wrapper {
+        margin: 0 0 0 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 342.8px);
+        grid-template-rows: repeat(2, 329px);
+        gap: 48px;
+
+        & .blog_card {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 26px;
+            width: 342.8px;
+            height: fit-content;
+
+            & .header {
+                width: 342.33px;
+                height: 182px;
+                position: relative;
+
+                & a {
+                    text-decoration: none;
+                    position: absolute;
+                    width: fit-content;
+                    padding: 5px 14.2px 5px 12px;
+                    background: #FAFAFA;
+                    box-shadow: 0px 0px 2px #000000;
+                    border-radius: 4px;
+                    left: 8px;
+                    top: 8px;
+                    font-family: 'Lato SemiBold';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #000000;
+                }
+
+            }
+
+            & .body {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                gap: 14px;
+
+                & h2 {
+                    font-family: 'Lato Bold';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #000000;
+                }
+
+                & p {
+                    font-family: 'Lato Medium';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+
+                & .date {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 342.8px;
+
+                    & .watched {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 6px;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    & button {
+        display: flex;
+        justify-content: center;
+        padding: 13px 47.3px 13px 46px;
+        background: #BA8D5B;
+        border-radius: 100px;
+        font-family: 'Lato Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin: 48px auto;
+        border: 1px solid #BD8F5B;
+        cursor: pointer;
+    }
+
+}
