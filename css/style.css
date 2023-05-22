@@ -265,21 +265,21 @@ header .nav img {
   border-radius: 12px;
 }
 
-#courses {
+#kurslar {
   width: 100%;
   height: 361px;
   background: #f9f8f7;
   padding: 48px 0 51px 0;
 }
 
-#courses .courses_elements {
+#kurslar .kurslar_elements {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-bottom: 18px;
 }
 
-#courses h1 {
+#kurslar h1 {
   font-family: "Lato Heavy";
   font-style: normal;
   font-weight: 800;
@@ -289,7 +289,7 @@ header .nav img {
   color: #0f1826;
 }
 
-#courses .courses_text {
+#kurslar .kurslar_text {
   font-family: "Lato SemiBold";
   font-style: normal;
   font-weight: 600;
@@ -298,12 +298,12 @@ header .nav img {
   color: #607987;
 }
 
-#courses .courses_wrapper {
+#kurslar .kurslar_wrapper {
   display: flex;
   gap: 33px;
 }
 
-#courses .courses_card {
+#kurslar .kurslar_card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -315,7 +315,7 @@ header .nav img {
   border-radius: 4px;
 }
 
-#courses .courses_card h2 {
+#kurslar .kurslar_card h2 {
   font-family: "Lato Bold";
   font-style: normal;
   font-weight: 700;
@@ -325,7 +325,7 @@ header .nav img {
   color: #0f1826;
 }
 
-#courses .courses_card p {
+#kurslar .kurslar_card p {
   font-family: "Lato Medium";
   font-style: normal;
   font-weight: 500;
@@ -335,7 +335,7 @@ header .nav img {
   color: #607987;
 }
 
-#courses a {
+#kurslar a {
   font-family: "Lato Bold";
   font-style: normal;
   font-weight: 700;
@@ -346,13 +346,13 @@ header .nav img {
   transition: all 0.5s ease;
 }
 
-#workplace {
+#ish_joylari {
   width: 100%;
   height: auto;
   padding: 48px 0;
 }
 
-#workplace h1 {
+#ish_joylari h1 {
   font-family: "Lato Heavy";
   font-style: normal;
   font-weight: 800;
@@ -362,7 +362,7 @@ header .nav img {
   margin-bottom: 24px;
 }
 
-#workplace p {
+#ish_joylari p {
   font-family: "Lato SemiBold";
   font-style: normal;
   font-weight: 600;
@@ -371,7 +371,7 @@ header .nav img {
   color: #607987;
 }
 
-#workplace .workplace_wrapper {
+#ish_joylari .ish_joylari_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -380,32 +380,32 @@ header .nav img {
   margin: 48px 0 0 0;
 }
 
-#workplace .workplace_card {
+#ish_joylari .ish_joylari_card {
   padding: 16px 12px;
   background: #f9f8f7;
   border-radius: 8px;
 }
 
-#workplace .workplace_card img {
+#ish_joylari .ish_joylari_card img {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   transition: all 0.5s ease;
 }
 
-#workplace .workplace_card img:hover {
+#ish_joylari .ish_joylari_card img:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   transition: all 0.5s ease;
   cursor: pointer;
 }
 
-#comments {
+#izohlar {
   width: 100%;
   height: 686px;
   padding: 40px 0 90px 0;
 }
 
-#comments h1 {
+#izohlar h1 {
   font-family: "Lato Heavy";
   font-style: normal;
   font-weight: 800;
@@ -415,7 +415,7 @@ header .nav img {
   margin: 48px 0 24px 0;
 }
 
-#comments .commets_about {
+#izohlar .commets_about {
   font-family: "Lato SemiBold";
   font-style: normal;
   font-weight: 600;
@@ -424,7 +424,7 @@ header .nav img {
   color: #607987;
 }
 
-#comments .comments_wrapper {
+#izohlar .izohlar_wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -432,7 +432,7 @@ header .nav img {
   margin-top: 48px;
 }
 
-#comments .comments_card1 {
+#izohlar .izohlar_card1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -451,7 +451,7 @@ header .nav img {
   background-repeat: no-repeat;
 }
 
-#comments .comments_card2 {
+#izohlar .izohlar_card2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -470,7 +470,7 @@ header .nav img {
   background-repeat: no-repeat;
 }
 
-#comments .comments_card3 {
+#izohlar .izohlar_card3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -489,7 +489,7 @@ header .nav img {
   background-repeat: no-repeat;
 }
 
-#comments .comments_card4 {
+#izohlar .izohlar_card4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -508,8 +508,8 @@ header .nav img {
   background-repeat: no-repeat;
 }
 
-#comments .watch,
-#comments a {
+#izohlar .watch,
+#izohlar a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -521,8 +521,8 @@ header .nav img {
   transition: all 0.5s ease;
 }
 
-#comments .watch .video_link,
-#comments a .video_link {
+#izohlar .watch .video_link,
+#izohlar a .video_link {
   font-family: "Lato Bold";
   font-style: normal;
   font-weight: 700;
@@ -531,8 +531,8 @@ header .nav img {
   color: #000000 !important;
 }
 
-#comments .watch span,
-#comments a span {
+#izohlar .watch span,
+#izohlar a span {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -542,13 +542,13 @@ header .nav img {
   border-radius: 14px;
 }
 
-#comments .comments_text {
+#izohlar .izohlar_text {
   display: flex;
   flex-direction: column;
   gap: 7px;
 }
 
-#comments .comments_text .date {
+#izohlar .izohlar_text .date {
   font-family: "Lato SemiBold";
   font-style: normal;
   font-weight: 600;
@@ -558,7 +558,7 @@ header .nav img {
   color: #ffffff;
 }
 
-#comments .comments_text .job {
+#izohlar .izohlar_text .job {
   font-family: "Lato SemiBold";
   font-style: normal;
   font-weight: 600;
@@ -568,7 +568,7 @@ header .nav img {
   color: #7cd1ac;
 }
 
-#comments .comments_text h4 {
+#izohlar .izohlar_text h4 {
   font-family: "Lato Bold";
   font-style: normal;
   font-weight: 700;
@@ -616,9 +616,11 @@ header .nav img {
   color: #607987;
   margin: 16px 0 32px 0;
 }
+
 #help .help_wrapper .card_right .form .form_text span {
   color: #ba8d5b;
 }
+
 #help .help_wrapper .card_right .form .forms {
   padding: 14px 17px;
   width: 368px;
@@ -626,6 +628,7 @@ header .nav img {
   border: 1px solid #dadada;
   border-radius: 100px;
 }
+
 #help .help_wrapper .card_right .form .name {
   display: flex;
   flex-direction: column;
@@ -634,6 +637,7 @@ header .nav img {
   gap: 6px;
   margin-bottom: 16px;
 }
+
 #help .help_wrapper .card_right .form .name p {
   font-family: "Lato";
   font-style: normal;
@@ -643,6 +647,7 @@ header .nav img {
   letter-spacing: -0.28px;
   color: rgba(0, 0, 0, 0.35);
 }
+
 #help .help_wrapper .card_right .form .pn {
   display: flex;
   flex-direction: column;
@@ -650,6 +655,7 @@ header .nav img {
   align-items: flex-start;
   gap: 6px;
 }
+
 #help .help_wrapper .card_right .form .pn .phone_n-input_t {
   font-family: "Lato";
   font-style: normal;
@@ -659,6 +665,7 @@ header .nav img {
   letter-spacing: -0.28px;
   color: rgba(0, 0, 0, 0.35);
 }
+
 #help .help_wrapper .card_right .form .request_text {
   font-family: "Lato SemiBold";
   font-style: normal;
@@ -668,9 +675,11 @@ header .nav img {
   color: #000000;
   margin: 32px 0 22px 0;
 }
+
 #help .help_wrapper .card_right .form .request_text span {
   color: #ba8d5b;
 }
+
 #help .help_wrapper .card_right .form .request {
   padding: 13px 129.16px 13px 128.84px;
   background: #ba8d5b;
@@ -683,6 +692,7 @@ header .nav img {
   line-height: 22px;
   color: #ffffff;
 }
+
 #help .help_wrapper .card_right .form button:hover {
   border: 1px solid #bd8f5b;
   background: #ffffff;
@@ -692,20 +702,25 @@ header .nav img {
 
 footer {
   width: 100%;
-  height: 454px;
+  height: 700px;
   background: #f9f8f7;
 }
+
 footer .footer_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
 }
+
 footer .top_card {
   display: flex;
   flex-direction: column;
   width: 239px;
   gap: 28px;
 }
+
 footer .top_card p {
   font-family: "Lato SemiBold";
   font-style: normal;
@@ -714,10 +729,12 @@ footer .top_card p {
   line-height: 22px;
   color: #607987;
 }
+
 footer .footer_card {
   display: flex;
   flex-direction: column;
 }
+
 footer .footer_card h1 {
   font-family: "Lato Bold";
   font-style: normal;
@@ -729,6 +746,7 @@ footer .footer_card h1 {
   color: #0f1826;
   margin-bottom: 32px;
 }
+
 footer .footer_card a {
   text-decoration: none;
   font-family: "Lato SemiBold";
@@ -740,20 +758,25 @@ footer .footer_card a {
   color: #607987;
   transition: all 0.5s ease;
 }
+
 footer hr {
   margin-left: 265px;
 }
+
 footer .bottom_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 34px;
+  padding-bottom: 100px;
 }
+
 footer .footer_card_bottom {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
+
 footer .footer_card_bottom h1 {
   font-family: "Lato Bold";
   font-style: normal;
@@ -763,11 +786,13 @@ footer .footer_card_bottom h1 {
   letter-spacing: -0.32px;
   color: #0f1826;
 }
+
 footer .footer_card_bottom ul {
   display: flex;
   padding: 0;
   gap: 12px;
 }
+
 footer .footer_card_bottom a,
 footer .footer_card_bottom p {
   font-family: "Lato SemiBold";
@@ -780,6 +805,7 @@ footer .footer_card_bottom p {
   text-decoration: none;
   transition: all 0.5s ease;
 }
+
 footer .footer_card_bottom .raqam {
   font-family: "Lato Medium";
   font-style: normal;
@@ -793,7 +819,7 @@ footer .footer_card_bottom .raqam {
 .btn_white:hover {
   border: 1px solid #bd8f5b !important;
   background: transparent !important;
-  color: #000000 !important;
+  color: brown !important;
 }
 
 .btn_white:active {
@@ -808,5 +834,7 @@ footer .footer_card_bottom .raqam {
 
 a:hover {
   text-decoration: underline !important;
+  color: brown !important;
 }
+
 /* # sourceMappingURL=style.css.map */ 
