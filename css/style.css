@@ -875,6 +875,160 @@ a:hover {
 
 /* ----HOVER VA BIRNIMALA-END---- */
 
+
+/* ----BLOG PAGE-START---- */
+
+#blog {
+  margin-top: 164px;
+}
+
+#blog .road {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 32px 0;
+}
+
+#blog .road .back {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c4c4c4;
+}
+
+#blog .road .kurslar {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ba8d5b;
+}
+
+#blog .btns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+#blog .btns button {
+  padding: 16px 25.05px 16px;
+  background: #f7f7f5;
+  border-radius: 32px;
+  border: 1px solid #f7f7f5;
+  cursor: pointer;
+  font-family: "Lato SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#blog .blog_wrapper {
+  margin: 0 0 0 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 342.8px);
+  grid-template-rows: repeat(2, 329px);
+  gap: 48px;
+}
+
+#blog .blog_wrapper .blog_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 26px;
+  width: 342.8px;
+  height: fit-content;
+}
+
+#blog .blog_wrapper .blog_card .header {
+  width: 342.33px;
+  height: 182px;
+  position: relative;
+}
+
+#blog .blog_wrapper .blog_card .header a {
+  text-decoration: none;
+  position: absolute;
+  width: fit-content;
+  padding: 5px 14.2px 5px 12px;
+  background: #fafafa;
+  box-shadow: 0px 0px 2px #000000;
+  border-radius: 4px;
+  left: 8px;
+  top: 8px;
+  font-family: "Lato SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+#blog .blog_wrapper .blog_card .body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 14px;
+}
+
+#blog .blog_wrapper .blog_card .body h2 {
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+#blog .blog_wrapper .blog_card .body p {
+  font-family: "Lato Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#blog .blog_wrapper .blog_card .body .date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 342.8px;
+}
+
+#blog .blog_wrapper .blog_card .body .date .watched {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+#blog button {
+  display: flex;
+  justify-content: center;
+  padding: 13px 47.3px 13px 46px;
+  background: #ba8d5b;
+  border-radius: 100px;
+  font-family: "Lato Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 48px auto;
+  border: 1px solid #bd8f5b;
+  cursor: pointer;
+}  
+
+/* ----BLOG PAGE-END---- */
+
 /* ----QAYSI PAGE EDI ENDI BU---- */
 /* ----KURSLAR PAGE-START---- */
 
@@ -1044,159 +1198,6 @@ a:hover {
 }
 
 /* ----KURSLAR PAGE-START---- */
-
-/* ----BLOG PAGE-START---- */
-
-#blog {
-  margin-top: 164px;
-}
-
-#blog .road {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin: 32px 0;
-}
-
-#blog .road .back {
-  font-family: "Lato Medium";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  color: #c4c4c4;
-}
-
-#blog .road .kurslar {
-  font-family: "Lato Medium";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ba8d5b;
-}
-
-#blog .btns {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 16px;
-}
-
-#blog .btns button {
-  padding: 16px 25.05px 16px;
-  background: #f7f7f5;
-  border-radius: 32px;
-  border: 1px solid #f7f7f5;
-  cursor: pointer;
-  font-family: "Lato SemiBold";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  color: rgba(0, 0, 0, 0.7);
-}
-
-#blog .blog_wrapper {
-  margin: 0 0 0 30px;
-  display: grid;
-  grid-template-columns: repeat(3, 342.8px);
-  grid-template-rows: repeat(2, 329px);
-  gap: 48px;
-}
-
-#blog .blog_wrapper .blog_card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 26px;
-  width: 342.8px;
-  height: fit-content;
-}
-
-#blog .blog_wrapper .blog_card .header {
-  width: 342.33px;
-  height: 182px;
-  position: relative;
-}
-
-#blog .blog_wrapper .blog_card .header a {
-  text-decoration: none;
-  position: absolute;
-  width: fit-content;
-  padding: 5px 14.2px 5px 12px;
-  background: #fafafa;
-  box-shadow: 0px 0px 2px #000000;
-  border-radius: 4px;
-  left: 8px;
-  top: 8px;
-  font-family: "Lato SemiBold";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  color: #000000;
-}
-
-#blog .blog_wrapper .blog_card .body {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 14px;
-}
-
-#blog .blog_wrapper .blog_card .body h2 {
-  font-family: "Lato Bold";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  color: #000000;
-}
-
-#blog .blog_wrapper .blog_card .body p {
-  font-family: "Lato Medium";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 22px;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-#blog .blog_wrapper .blog_card .body .date {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 342.8px;
-}
-
-#blog .blog_wrapper .blog_card .body .date .watched {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-}
-
-#blog button {
-  display: flex;
-  justify-content: center;
-  padding: 13px 47.3px 13px 46px;
-  background: #ba8d5b;
-  border-radius: 100px;
-  font-family: "Lato Bold";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-  color: #ffffff;
-  margin: 48px auto;
-  border: 1px solid #bd8f5b;
-  cursor: pointer;
-}  
-
-/* ----BLOG PAGE-END---- */
 /* NAKONETS-TO TUGADIYAA E */
 
 /* # sourceMappingURL=style.css.map */ 
